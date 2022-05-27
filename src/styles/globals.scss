@@ -12,6 +12,17 @@
   --body: #D7D7D7;
 }
 
+:root::-webkit-scrollbar {
+  width: .6rem;
+}
+:root::-webkit-scrollbar-track {
+  background-color: var(--background);
+}
+:root::-webkit-scrollbar-thumb {
+  background-color: var(--highlight);
+  border-radius: 1rem;
+}
+
 @media (max-width: 1080px) {
   html {
     font-size: 93.75%; // 15px

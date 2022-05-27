@@ -1,1 +1,40 @@
-// TODO
+.content {
+  padding: 5rem 0;
+
+  img {
+    margin-bottom: 4rem;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+    a {
+      strong {
+        display: block;
+        margin-bottom: .5rem;
+
+        transition: color .2s;
+      }
+  
+      p {
+        margin-bottom: 1.5rem;
+      }
+  
+      div {
+        time > svg,
+        span > svg {
+          margin-right: .5rem;
+        }
+        span {
+          margin-left: 1.6rem;  
+        }
+      }
+
+      &:hover {
+        color: var(--highlight);
+      } 
+    }
+  }
+}
