@@ -14,15 +14,20 @@
       strong {
         display: block;
         margin-bottom: .5rem;
+        font-size: 1.75rem;
 
         transition: color .2s;
       }
   
       p {
         margin-bottom: 1.5rem;
+        font-size: 1.125rem;
       }
   
       div {
+        time, span {
+          font-size: .9rem;
+        }
         time > svg,
         span > svg {
           margin-right: .5rem;
