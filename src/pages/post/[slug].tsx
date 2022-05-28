@@ -6,6 +6,7 @@ import { FiCalendar, FiUser, FiClock } from 'react-icons/fi';
 import { ptBR } from 'date-fns/locale';
 import { format } from 'date-fns';
 import { RichText } from 'prismic-dom';
+import { ClipLoader } from 'react-spinners';
 import { getPrismicClient } from '../../services/prismic';
 
 import commonStyles from '../../styles/common.module.scss';
@@ -38,7 +39,12 @@ export default function Post({ post }: PostProps): JSX.Element {
   const router = useRouter();
 
   if (router.isFallback) {
-    return <h1>Carregando...</h1>;
+    return (
+      <div className={commonStyles.center}>
+        <ClipLoader color="#FF57B2" />
+        <h1>Carregando...</h1>
+      </div>
+    );
   }
 
   const totalWords = post.data.content.reduce(
