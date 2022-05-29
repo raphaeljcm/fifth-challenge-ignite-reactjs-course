@@ -26,7 +26,7 @@
 
 ## 💻 About the challenge
 
-In this challenge, I had to create an application from total 0, only with a Figma layout to guide me. The application is a blog that I had to connect with Prismic CMS. 🔥
+In this challenge, I had to create an application from total 0, only with a Figma layout to guide me. The application is a blog that I had to connect to Prismic CMS. 🔥
 This challenge was definitely a great one, I learned a lot building this application, Rocketseat never disappoints me.
 
 </br>
