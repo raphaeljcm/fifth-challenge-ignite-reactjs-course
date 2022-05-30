@@ -42,8 +42,6 @@ This challenge was definitely a great one, I learned a lot building this applica
 
 </br>
 
-<br>
-
 ## 📰 License
 
 MIT. 
